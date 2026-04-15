@@ -15,7 +15,7 @@ alter table books
 add entry_date datetime default current_timestamp; 
 
 -- Tao bang borrow_books
-borrow_bookcreate table borrow_book(
+create table borrow_book(
 	id int  auto_increment primary key, -- Id tu tang va la khoa chinh
     bookId char(5),
     borrow_date date default (current_date),
